@@ -1,12 +1,11 @@
-<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-sm-4 space" *ngFor="let obra of obras; let i = index">
 
-  <div class="card" *ngFor="let obra of obras; let i = index"
-    style="width: 20rem; position: relative;
-    float: left; margin: 5px;">
-    <img class="card-img-top"
-      style="width: 20rem; height: 25rem;"
-      [src]="obra.img"
-      [alt]="obra.nombre" (click)="verObra(i)">
+    <div class="card">
+      <img class="card-img-top obras"
+        [src]="obra.img"
+        [alt]="obra.nombre" (click)="verObra(i)">
+    </div>
+
   </div>
-
 </div>

@@ -20,6 +20,7 @@ export class ObrasComponent implements OnInit {
   }
 
   verObra( idx:number ){
+    //screen.orientation.lock('landscape');//Only works in Firefox
     this.router.navigate( ['/obra',idx] );
   }
 
