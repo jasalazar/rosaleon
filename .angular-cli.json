@@ -20,12 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-<<<<<<< HEAD
-        "assets/b4/css/bootstrap.min.css"
-=======
         "assets/b4/css/bootstrap.min.css",
         "assets/font-awesome/css/font-awesome.min.css"
->>>>>>> 28b35b33411564249dc6f14e9847f0a309393ab4
       ],
       "scripts": [
         "assets/jquery/jquery.slim.min.js",
