@@ -12,6 +12,9 @@ import { ObraComponent } from './components/obra/obra.component';
 //Services
 import { ObrasService } from './services/obras.service';
 
+//Directives
+import { zIndexDirective } from './directives/zindex.directive';
+
 //Routes
 import { APP_ROUTING } from './app.routes';
 
@@ -21,7 +24,8 @@ import { APP_ROUTING } from './app.routes';
     AppComponent,
     NavbarComponent,
     ObrasComponent,
-    ObraComponent
+    ObraComponent,
+    zIndexDirective
   ],
   imports: [
     BrowserModule,

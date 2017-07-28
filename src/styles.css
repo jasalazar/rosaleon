@@ -54,6 +54,11 @@
     width: 20rem;
     position: relative;
     float: left;
+    opacity: .75
+  }
+
+  .card:hover {
+    opacity: 1 !important;
   }
 
 }

@@ -15,13 +15,17 @@ export class ObrasComponent implements OnInit {
 
   }
 
-  ngOnInit() {
+  ngOnInit(){
     this.obras = this._obrasService.getObras();
   }
 
   verObra( idx:number ){
     //screen.orientation.lock('landscape');//Only works in Firefox
     this.router.navigate( ['/obra',idx] );
+  }
+
+  mouseOver(){
+    //console.log("mouse over");
   }
 
 }

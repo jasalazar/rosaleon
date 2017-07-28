@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-xs-12 col-sm-4 space" *ngFor="let obra of obras; let i = index">
 
-    <div class="card">
+    <div class="card" z-index>
       <img class="card-img-top obras"
         [src]="obra.img"
         [alt]="obra.nombre" (click)="verObra(i)">
