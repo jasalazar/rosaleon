@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ObrasComponent } from './components/obras/obras.component';
 import { ObraComponent } from './components/obra/obra.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 //Services
 import { ObrasService } from './services/obras.service';
@@ -25,7 +26,8 @@ import { APP_ROUTING } from './app.routes';
     NavbarComponent,
     ObrasComponent,
     ObraComponent,
-    zIndexDirective
+    zIndexDirective,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
